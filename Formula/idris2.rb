@@ -15,7 +15,7 @@ class Idris2 < Formula
     sha256 "6641e4427bd78b544caf8f78fd72ff1faafd8f5439a8357f62e2311db891e146" => :high_sierra
   end
 
-  depends_on "coreutils" => :build
+  depends_on "coreutils"
   depends_on "chezscheme"
 
   def install
